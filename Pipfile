@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+twine = "*"
+pyrealsense2 = "*"
+opencv-contrib-python = "*"
+numpy = "==1.19.3"
+open3d = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
